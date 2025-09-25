@@ -11,3 +11,4 @@ A curated collection of references that I use as a software developer.
 ---
 
 ## 📚 Style Guides
+- [Git Commit Conventions](style-guides/git-commit-conventions.md)
