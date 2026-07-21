@@ -2,7 +2,7 @@
 
 A quick reference for checking and applying firmware updates on Ubuntu using `fwupd`.
 
-> [!TLDR]
+> [!TIP]
 > If metadata is already refreshed, the quickest flow is:
 > 
 > ```bash
