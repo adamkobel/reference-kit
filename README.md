@@ -6,10 +6,16 @@ A curated collection of references that I use as a software developer.
 
 ## 📖 Table of Contents
 
+- [🛠️ System Administration](#system-administration)
 - [📚 Style Guides](#style-guides)
 - [🧾 Cheat Sheets](#cheat-sheets)
 
 ---
+
+## 🛠️ System Administration
+### Linux
+#### Ubuntu
+- [Firmware Updates](system-administration/linux/ubuntu/firmware-updates.md) — Steps for checking and applying firmware updates with `fwupd`
 
 ## 📚 Style Guides
 - [Git Commit Conventions](style-guides/git-commit-conventions.md) — Guidelines for writing clear commit messages
