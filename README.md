@@ -22,3 +22,4 @@ A curated collection of references that I use as a software developer.
 
 ## 🧾 Cheat Sheets
 - [Anaconda](cheat-sheets/anaconda.md) — Quick conda commands and tips
+- [uv and Python](cheat-sheets/uv-python.md) — Install uv and manage Python projects, environments, and tools
