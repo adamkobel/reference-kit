@@ -23,3 +23,6 @@ A curated collection of references that I use as a software developer.
 ## 🧾 Cheat Sheets
 - [Anaconda](cheat-sheets/anaconda.md) — Quick conda commands and tips
 - [uv and Python](cheat-sheets/uv-python.md) — Install uv and manage Python projects, environments, and tools
+ - Matplotlib (`matplotlib.pyplot`)
+	 - [Bar chart](cheat-sheets/matplotlib.pyplot/bar-chart.md) — Examples for creating bar charts with `matplotlib.pyplot`
+	 - [Line chart](cheat-sheets/matplotlib.pyplot/line-chart.md) — Examples for creating line charts with `matplotlib.pyplot`
