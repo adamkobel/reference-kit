@@ -33,11 +33,14 @@ Closes #42
 
 - `feat`: New feature
 - `fix`: Bug fix
+- `chore`: Routine tasks such as maintenance, tooling, or dependencies
 - `docs`: Documentation changes
-- `style`: Formatting, missing semi-colons, etc.
 - `refactor`: Code change that neither fixes a bug nor adds a feature
 - `test`: Adding or updating tests
-- `chore`: Maintenance tasks
+- `style`: Formatting, missing semi-colons, etc.
+- `perf`: Performance improvements
+- `ci`: Changes to CI configuration or scripts
+- `build`: Changes that affect the build system or external dependencies
 
 ## Best Practices
 
