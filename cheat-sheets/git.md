@@ -36,6 +36,5 @@ Replace `USERNAME` and `REPOSITORY` with your GitHub username and repository nam
 ## 6. Push to GitHub
 
 ```sh
-
 git push -u origin main
 ```

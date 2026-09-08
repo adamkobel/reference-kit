@@ -1,6 +1,6 @@
 # Reference Kit
 
-A curated collection of references that I use as a software developer.
+A curated software-developer reference collection organized by subject and page type. It includes quick references, procedures, troubleshooting guides, conceptual overviews, style guides, and focused code examples.
 
 ---
 
@@ -8,6 +8,7 @@ A curated collection of references that I use as a software developer.
 
 - [🛠️ System Administration](#system-administration)
 - [📚 Style Guides](#style-guides)
+- [☁️ Cloud Platforms](#cloud-platforms)
 - [🧾 Cheat Sheets](#cheat-sheets)
 
 ---
@@ -29,6 +30,7 @@ A curated collection of references that I use as a software developer.
 - [uv and Python](cheat-sheets/uv-python.md) — Install uv and manage Python projects, environments, and tools
 - [Docker](cheat-sheets/docker.md) — Quick Docker commands and examples
 - [Docker: Add User to Docker Group](cheat-sheets/docker-group.md) — Fix Docker socket permission errors without using `sudo`
- - Matplotlib (`matplotlib.pyplot`)
-	 - [Bar chart](cheat-sheets/matplotlib.pyplot/bar-chart.md) — Examples for creating bar charts with `matplotlib.pyplot`
-	 - [Line chart](cheat-sheets/matplotlib.pyplot/line-chart.md) — Examples for creating line charts with `matplotlib.pyplot`
+- [Git Repository Initialization](cheat-sheets/git.md) — Procedure for initializing a repository and pushing it to GitHub
+- Matplotlib (`matplotlib.pyplot`)
+	- [Bar chart](cheat-sheets/matplotlib.pyplot/bar-chart.md) — Example for creating a bar chart with `matplotlib.pyplot`
+	- [Line chart](cheat-sheets/matplotlib.pyplot/line-chart.md) — Example for creating a line chart with `matplotlib.pyplot`
