@@ -20,6 +20,10 @@ A curated collection of references that I use as a software developer.
 ## 📚 Style Guides
 - [Git Commit Conventions](style-guides/git-commit-conventions.md) — Guidelines for writing clear commit messages
 
+## ☁️ Cloud Platforms
+### Azure
+- [App Service Overview](cloud-platforms/azure/app-service-overview.md) — High-level guide to Azure App Service, App Service Plans, scaling, deployment, networking, and operations
+
 ## 🧾 Cheat Sheets
 - [Anaconda](cheat-sheets/anaconda.md) — Quick conda commands and tips
 - [uv and Python](cheat-sheets/uv-python.md) — Install uv and manage Python projects, environments, and tools
