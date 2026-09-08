@@ -24,6 +24,7 @@ A curated software-developer reference collection organized by subject and page 
 ## ☁️ Cloud Platforms
 ### Azure
 - [App Service Overview](cloud-platforms/azure/app-service-overview.md) — High-level guide to Azure App Service, App Service Plans, scaling, deployment, networking, and operations
+- [Azure Functions Overview](cloud-platforms/azure/functions-overview.md) — Conceptual overview of Azure Functions, hosting plans, triggers, execution, networking, and operations
 
 ## 🧾 Cheat Sheets
 - [Anaconda](cheat-sheets/anaconda.md) — Quick conda commands and tips
