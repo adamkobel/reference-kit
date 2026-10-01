@@ -1,6 +1,6 @@
 # Reference Kit
 
-A curated software-developer reference collection organized by subject and page type. It includes quick references, procedures, troubleshooting guides, conceptual overviews, style guides, and focused code examples.
+A curated collection of software engineering and data science knowledge. Organized by subject and page type, it includes quick references, procedures, troubleshooting guides, conceptual overviews, style guides, and focused code examples.
 
 ---
 
