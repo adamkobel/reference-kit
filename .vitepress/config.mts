@@ -3,7 +3,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
-  
+  // Served from https://adamkobel.github.io/reference-kit/
+  base: "/reference-kit/",
+
   title: "Reference Kit",
   description: "A curated collection of software engineering and data science knowledge",
   themeConfig: {
