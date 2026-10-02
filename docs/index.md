@@ -40,6 +40,9 @@ features:
 #### Ubuntu
 - [Firmware Updates](/system-administration/linux/ubuntu/firmware-updates) — Steps for checking and applying firmware updates with `fwupd`
 
+### Windows
+- [PowerShell Profile](/system-administration/windows/powershell-profile) — Guide to creating a PowerShell profile with a `workspace` command that changes into your workspace directory
+
 ## 💻 Languages & Runtimes
 ### JavaScript
 - [CommonJS vs ES Modules](/languages/javascript/module-systems-overview) — Conceptual overview of why JavaScript has two module systems, how they differ, and how to fix common errors

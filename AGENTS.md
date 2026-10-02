@@ -67,3 +67,8 @@ The page index lives in two places, which must stay in sync: the sidebar in `.vi
 - Keep every reference Markdown page indexed exactly once in the sidebar and exactly once in `docs/index.md`.
 - Use the page's primary type when choosing its `docs/index.md` description, without duplicating the full taxonomy for every link.
 - Run `npm run build` to verify; the build fails on dead internal links.
+
+## Commit Messages
+
+- Follow the Conventional Commits rules in `docs/style-guides/git-commit-conventions.md`.
+- `.github/commit-instructions.md` is the condensed copy used by the VS Code "Generate Commit Message" feature (configured in `.vscode/settings.json`); keep it in sync if the style guide changes.

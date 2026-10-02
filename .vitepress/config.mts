@@ -37,6 +37,12 @@ export default defineConfig({
                 ]
               }
             ]
+          },
+          {
+            text: 'Windows',
+            items: [
+              { text: 'PowerShell Profile', link: '/system-administration/windows/powershell-profile' }
+            ]
           }
         ]
       },
