@@ -5,6 +5,9 @@ export default defineConfig({
   srcDir: "docs",
   // Served from https://adamkobel.github.io/reference-kit/
   base: "/reference-kit/",
+  markdown: {
+    math: true
+  },
 
   title: "Reference Kit",
   description: "A curated collection of software engineering and data science knowledge",
@@ -67,6 +70,13 @@ export default defineConfig({
               { text: 'Azure Functions Overview', link: '/cloud-platforms/azure/functions-overview' }
             ]
           }
+        ]
+      },
+      {
+        text: '📊 Data Science',
+        collapsed: false,
+        items: [
+          { text: 'Probability Fundamentals', link: '/data-science/probability-fundamentals' }
         ]
       },
       {

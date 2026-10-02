@@ -52,6 +52,9 @@ features:
 - [App Service Overview](/cloud-platforms/azure/app-service-overview) — High-level guide to Azure App Service, App Service Plans, scaling, deployment, networking, and operations
 - [Azure Functions Overview](/cloud-platforms/azure/functions-overview) — Conceptual overview of Azure Functions, hosting plans, triggers, execution, networking, and operations
 
+## 📊 Data Science
+- [Probability Fundamentals](/data-science/probability-fundamentals) — Overview of probability, core rules, and how probability is used with data
+
 ## 🧾 Cheat Sheets
 - [Anaconda](/cheat-sheets/anaconda) — Quick conda commands and tips
 - [uv and Python](/cheat-sheets/uv-python) — Install uv and manage Python projects, environments, and tools
