@@ -40,6 +40,10 @@ features:
 #### Ubuntu
 - [Firmware Updates](/system-administration/linux/ubuntu/firmware-updates) — Steps for checking and applying firmware updates with `fwupd`
 
+## 💻 Languages & Runtimes
+### JavaScript
+- [CommonJS vs ES Modules](/languages/javascript/module-systems-overview) — Conceptual overview of why JavaScript has two module systems, how they differ, and how to fix common errors
+
 ## 📚 Style Guides
 - [Git Commit Conventions](/style-guides/git-commit-conventions) — Guidelines for writing clear commit messages
 

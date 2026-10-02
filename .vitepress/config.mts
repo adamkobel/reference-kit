@@ -38,6 +38,18 @@ export default defineConfig({
         ]
       },
       {
+        text: '💻 Languages & Runtimes',
+        collapsed: false,
+        items: [
+          {
+            text: 'JavaScript',
+            items: [
+              { text: 'CommonJS vs ES Modules', link: '/languages/javascript/module-systems-overview' }
+            ]
+          }
+        ]
+      },
+      {
         text: '📚 Style Guides',
         collapsed: false,
         items: [
