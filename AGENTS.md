@@ -20,16 +20,16 @@ Keep the README navigation organized primarily by subject. Make each page's prim
 
 ### Current Page Classification
 
-- `system-administration/linux/ubuntu/firmware-updates.md` — guide/procedure/runbook with troubleshooting
-- `style-guides/git-commit-conventions.md` — style/convention guide
-- `cloud-platforms/azure/app-service-overview.md` — conceptual overview and decision guide
-- `cheat-sheets/anaconda.md` — command cheat sheet
-- `cheat-sheets/uv-python.md` — tool/workflow quick reference
-- `cheat-sheets/docker.md` — command and configuration cheat sheet
-- `cheat-sheets/docker-group.md` — focused troubleshooting guide with remediation and security notes
-- `cheat-sheets/matplotlib.pyplot/bar-chart.md` — focused code example/recipe
-- `cheat-sheets/matplotlib.pyplot/line-chart.md` — focused code example/recipe
-- `cheat-sheets/git.md` — Git repository initialization procedure/guide
+- `docs/system-administration/linux/ubuntu/firmware-updates.md` — guide/procedure/runbook with troubleshooting
+- `docs/style-guides/git-commit-conventions.md` — style/convention guide
+- `docs/cloud-platforms/azure/app-service-overview.md` — conceptual overview and decision guide
+- `docs/cheat-sheets/anaconda.md` — command cheat sheet
+- `docs/cheat-sheets/uv-python.md` — tool/workflow quick reference
+- `docs/cheat-sheets/docker.md` — command and configuration cheat sheet
+- `docs/cheat-sheets/docker-group.md` — focused troubleshooting guide with remediation and security notes
+- `docs/cheat-sheets/matplotlib.pyplot/bar-chart.md` — focused code example/recipe
+- `docs/cheat-sheets/matplotlib.pyplot/line-chart.md` — focused code example/recipe
+- `docs/cheat-sheets/git.md` — Git repository initialization procedure/guide
 
 ### Potential Future Page Types
 
@@ -45,16 +45,19 @@ These are suggestions, not required categories. Do not add placeholder pages sol
 
 ## Content Rules
 
-- Place a page under the subject directory that best matches its primary topic.
+- The site is built with VitePress and served from `docs/` (`srcDir` in `.vitepress/config.mts`). Place every reference page under `docs/`, in the subject directory that best matches its primary topic.
 - Use a descriptive, specific filename in lowercase kebab-case.
-- Use the canonical `cheat-sheets/` directory for cheat sheets; do not create or restore the legacy `cheatsheets/` directory.
-- When a page could fit multiple subjects, choose the subject that best matches its primary audience and link it once in the README.
+- Use the canonical `docs/cheat-sheets/` directory for cheat sheets; do not create or restore the legacy `cheatsheets/` directory.
+- When a page could fit multiple subjects, choose the subject that best matches its primary audience and index it once.
+- Keep page Markdown VitePress-compatible: pages are compiled as Vue templates, so wrap bare `<tag>`-style text and `{{ }}` in inline code or code fences.
 
-## README Page Index
+## Site Navigation
 
-- When adding a Markdown page, add a descriptive relative link to it in the appropriate section of `README.md` in the same change.
-- When substantially changing an existing page's purpose, title, scope, location, or organization, update its corresponding `README.md` link text and description as needed.
-- Keep README entries grouped with the existing category structure and use the repository's established link-and-description format.
-- Do not add duplicate README entries for the same page.
-- Keep every reference Markdown page indexed exactly once in `README.md`.
-- Use the page's primary type when choosing its README description, without duplicating the full taxonomy for every link.
+The page index lives in two places, which must stay in sync: the sidebar in `.vitepress/config.mts` and the categorized page index in `docs/index.md`. `README.md` is a short project intro and does not index pages.
+
+- When adding a Markdown page, add it to both the sidebar and the `docs/index.md` page index in the same change. Use site-absolute links without the `.md` extension, such as `/cheat-sheets/docker`.
+- When substantially changing an existing page's purpose, title, scope, location, or organization, update its sidebar text and its `docs/index.md` link text and description as needed.
+- Keep entries grouped with the existing category structure and use the established link-and-description format in `docs/index.md`.
+- Keep every reference Markdown page indexed exactly once in the sidebar and exactly once in `docs/index.md`.
+- Use the page's primary type when choosing its `docs/index.md` description, without duplicating the full taxonomy for every link.
+- Run `npm run build` to verify; the build fails on dead internal links.
