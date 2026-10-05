@@ -5,6 +5,14 @@ export default defineConfig({
   srcDir: "docs",
   // Served from https://adamkobel.github.io/reference-kit/
   base: "/reference-kit/",
+  vite: {
+    optimizeDeps: {
+      exclude: ['@nolebase/vitepress-plugin-enhanced-readabilities/client', 'vitepress', '@nolebase/ui']
+    },
+    ssr: {
+      noExternal: ['@nolebase/vitepress-plugin-enhanced-readabilities', '@nolebase/ui']
+    }
+  },
   markdown: {
     math: true
   },
@@ -119,3 +127,4 @@ export default defineConfig({
     ]
   }
 })
+
