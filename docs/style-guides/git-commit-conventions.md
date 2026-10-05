@@ -42,6 +42,26 @@ Closes #42
 - `ci`: Changes to CI configuration or scripts
 - `build`: Changes that affect the build system or external dependencies
 
+## Choosing Between `docs` and `feat`
+
+Use `docs` for documentation changes, including adding a new reference page or
+cheat sheet. A new page is new content, but it does not by itself add a feature
+to the software or product.
+
+Use `feat` when the change adds a new user-facing capability to the software or
+product. Choose the type based on what the change does, not on whether it adds
+a new file.
+
+For example, adding a Docker cheat sheet is a documentation change:
+
+```
+docs(docker): add Docker cheat sheet
+```
+
+If a commit contains both documentation and a software feature, choose the type
+that best describes the primary change. When practical, keep unrelated changes
+in separate commits.
+
 ## Best Practices
 
 - Use the imperative mood in the subject line (e.g., "Add", not "Added" or "Adds")

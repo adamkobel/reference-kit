@@ -66,6 +66,7 @@ features:
 - [Git Repository Initialization](/cheat-sheets/git) — Procedure for initializing a repository and pushing it to GitHub
 - [Linux File Permissions](/cheat-sheets/linux-file-permissions) — Inspect and change Linux permissions, ownership, special bits, and default modes
 - [NVM Essentials](/cheat-sheets/nvm) — Install NVM and manage Node.js versions on macOS and Windows
+- [Snowflake CLI](/cheat-sheets/snowflake-cli) — Configure a connection and run SQL with Snowflake's `snow` CLI
 - Matplotlib (`matplotlib.pyplot`)
   - [Bar chart](/cheat-sheets/matplotlib.pyplot/bar-chart) — Example for creating a bar chart with `matplotlib.pyplot`
   - [Line chart](/cheat-sheets/matplotlib.pyplot/line-chart) — Example for creating a line chart with `matplotlib.pyplot`

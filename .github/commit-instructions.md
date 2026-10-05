@@ -14,6 +14,16 @@ Write commit messages in Conventional Commits format:
 - body: optional; explain what and why, wrapped at 72 characters, separated from the subject by a blank line
 - footer: optional; issue references (`Closes #42`) and breaking changes
 
+Choose the type based on the change itself:
+
+- Use `docs` when adding or changing documentation, including a new reference
+  page or cheatsheet. For example: `docs(docker): add Docker cheatsheet`.
+- Use `feat` when adding a new capability to the software or product, not just
+  when adding a new file or page to this reference collection.
+- If a change includes both documentation and a software feature, choose the
+  type that best describes the primary change; split unrelated changes into
+  separate commits when practical.
+
 Example:
 
 ```

@@ -104,6 +104,7 @@ export default defineConfig({
           { text: 'Git Repository Initialization', link: '/cheat-sheets/git' },
           { text: 'Linux File Permissions', link: '/cheat-sheets/linux-file-permissions' },
           { text: 'NVM Essentials', link: '/cheat-sheets/nvm' },
+          { text: 'Snowflake CLI', link: '/cheat-sheets/snowflake-cli' },
           {
             text: 'Matplotlib (matplotlib.pyplot)',
             collapsed: false,
@@ -127,4 +128,3 @@ export default defineConfig({
     ]
   }
 })
-
