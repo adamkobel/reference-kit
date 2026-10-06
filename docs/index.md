@@ -59,6 +59,11 @@ features:
 - [Cortex Overview](/cloud-platforms/snowflake/cortex-overview) — Overview of Cortex AI functions, search, analytics, agents, governance, costs, and when to use Snowflake-managed AI features
 
 ## 📊 Data Science
+### Probability
+- [Combinatorics](/data-science/probability/combinatorics) — Overview of counting principles and how permutations, variations, and combinations relate to probability
+- [Permutations](/data-science/probability/permutations) — Count arrangements of all items, including cases with identical items
+- [Variations](/data-science/probability/variations) — Count ordered selections, with or without repetition
+- [Combinations](/data-science/probability/combinations) — Count selections when order does not matter, with or without repetition
 - [Probability Fundamentals](/data-science/probability-fundamentals) — Overview of probability, core rules, and how probability is used with data
 - [Probability Frequency Distribution](/data-science/probability-frequency-distribution) — Frequency tables with counts and relative frequencies
 - [Complements in Statistics](/data-science/complements-statistics) — Guide to complement probabilities, observed proportions, and "at least one" calculations

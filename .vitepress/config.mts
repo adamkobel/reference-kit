@@ -96,9 +96,19 @@ export default defineConfig({
         text: '📊 Data Science',
         collapsed: false,
         items: [
-          { text: 'Probability Fundamentals', link: '/data-science/probability-fundamentals' },
-          { text: 'Probability Frequency Distribution', link: '/data-science/probability-frequency-distribution' },
-          { text: 'Complements in Statistics', link: '/data-science/complements-statistics' }
+          {
+            text: 'Probability',
+            collapsed: false,
+            items: [
+              { text: 'Combinatorics', link: '/data-science/probability/combinatorics' },
+              { text: 'Permutations', link: '/data-science/probability/permutations' },
+              { text: 'Variations', link: '/data-science/probability/variations' },
+              { text: 'Combinations', link: '/data-science/probability/combinations' },
+              { text: 'Probability Fundamentals', link: '/data-science/probability-fundamentals' },
+              { text: 'Probability Frequency Distribution', link: '/data-science/probability-frequency-distribution' },
+              { text: 'Complements in Statistics', link: '/data-science/complements-statistics' }
+            ]
+          }
         ]
       },
       {
