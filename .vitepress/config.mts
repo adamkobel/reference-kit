@@ -83,6 +83,12 @@ export default defineConfig({
               { text: 'App Service Overview', link: '/cloud-platforms/azure/app-service-overview' },
               { text: 'Azure Functions Overview', link: '/cloud-platforms/azure/functions-overview' }
             ]
+          },
+          {
+            text: 'Snowflake',
+            items: [
+              { text: 'Cortex Overview', link: '/cloud-platforms/snowflake/cortex-overview' }
+            ]
           }
         ]
       },

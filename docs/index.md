@@ -55,6 +55,9 @@ features:
 - [App Service Overview](/cloud-platforms/azure/app-service-overview) — High-level guide to Azure App Service, App Service Plans, scaling, deployment, networking, and operations
 - [Azure Functions Overview](/cloud-platforms/azure/functions-overview) — Conceptual overview of Azure Functions, hosting plans, triggers, execution, networking, and operations
 
+### Snowflake
+- [Cortex Overview](/cloud-platforms/snowflake/cortex-overview) — Overview of Cortex AI functions, search, analytics, agents, governance, costs, and when to use Snowflake-managed AI features
+
 ## 📊 Data Science
 - [Probability Fundamentals](/data-science/probability-fundamentals) — Overview of probability, core rules, and how probability is used with data
 
