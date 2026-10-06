@@ -60,6 +60,7 @@ features:
 
 ## 📊 Data Science
 - [Probability Fundamentals](/data-science/probability-fundamentals) — Overview of probability, core rules, and how probability is used with data
+- [Probability Frequency Distribution](/data-science/probability-frequency-distribution) — Frequency tables with counts and relative frequencies
 
 ## 🧾 Cheat Sheets
 - [Anaconda](/cheat-sheets/anaconda) — Quick conda commands and tips

@@ -96,7 +96,8 @@ export default defineConfig({
         text: '📊 Data Science',
         collapsed: false,
         items: [
-          { text: 'Probability Fundamentals', link: '/data-science/probability-fundamentals' }
+          { text: 'Probability Fundamentals', link: '/data-science/probability-fundamentals' },
+          { text: 'Probability Frequency Distribution', link: '/data-science/probability-frequency-distribution' }
         ]
       },
       {
