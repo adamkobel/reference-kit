@@ -97,7 +97,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Probability Fundamentals', link: '/data-science/probability-fundamentals' },
-          { text: 'Probability Frequency Distribution', link: '/data-science/probability-frequency-distribution' }
+          { text: 'Probability Frequency Distribution', link: '/data-science/probability-frequency-distribution' },
+          { text: 'Complements in Statistics', link: '/data-science/complements-statistics' }
         ]
       },
       {
