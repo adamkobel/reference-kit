@@ -17,19 +17,31 @@ hero:
 features:
   - icon: 🛠️
     title: System Administration
-    details: Procedures and runbooks for maintaining Linux systems.
+    details: Linux and Windows procedures, system guides, and troubleshooting.
     link: /system-administration/linux/ubuntu/firmware-updates
+  - icon: 💻
+    title: Languages & Runtimes
+    details: JavaScript module-system concepts and guidance.
+    link: /languages/javascript/module-systems-overview
   - icon: 📚
     title: Style Guides
     details: Conventions and best practices for consistent engineering work.
     link: /style-guides/git-commit-conventions
   - icon: ☁️
     title: Cloud Platforms
-    details: Conceptual overviews and decision guides for cloud services.
+    details: Overviews of Azure and Snowflake services, capabilities, and tradeoffs.
     link: /cloud-platforms/azure/app-service-overview
+  - icon: ➗
+    title: Mathematics
+    details: Probability concepts, counting principles, and worked examples.
+    link: /mathematics/probability/fundamentals
+  - icon: 📊
+    title: Data Science
+    details: Statistical summaries and data analysis concepts.
+    link: /data-science/frequency-distribution
   - icon: 🧾
     title: Cheat Sheets
-    details: Quick references, troubleshooting guides, and code recipes.
+    details: Command references, procedures, troubleshooting, and code recipes.
     link: /cheat-sheets/anaconda
 ---
 

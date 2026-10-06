@@ -7,7 +7,7 @@ This repository is a curated software-developer reference collection. Organize c
 - **Subject/category:** The topic or domain, such as Git, Docker, Azure, Linux, Matplotlib, or data science.
 - **Page type:** The form and intended use of the information, such as a cheat sheet, procedure, troubleshooting guide, overview, style guide, or code example.
 
-Keep the README navigation organized primarily by subject. Make each page's primary type clear from its title, opening description, structure, and README description. A page may combine types when that reflects its purpose; for example, a procedure may include a troubleshooting section.
+Keep the site's navigation organized primarily by subject. Make each page's primary type clear from its title, opening description, structure, and `docs/index.md` description. A page may combine types when that reflects its purpose; for example, a procedure may include a troubleshooting section.
 
 ### Page Types
 
@@ -18,35 +18,30 @@ Keep the README navigation organized primarily by subject. Make each page's prim
 - **Style or convention guide:** Rules, structure, examples, and best practices. The current example is Git commit conventions.
 - **Code example / recipe:** A focused implementation example for a library, API, or task. Current examples include the Matplotlib bar and line chart pages.
 
-### Current Page Classification
+### Current Page-Type Coverage
 
-- `docs/system-administration/linux/ubuntu/firmware-updates.md` — guide/procedure/runbook with troubleshooting
-- `docs/languages/javascript/module-systems-overview.md` — conceptual overview with troubleshooting
-- `docs/style-guides/git-commit-conventions.md` — style/convention guide
-- `docs/cloud-platforms/azure/app-service-overview.md` — conceptual overview and decision guide
-- `docs/cloud-platforms/azure/functions-overview.md` — conceptual overview
-- `docs/mathematics/probability/fundamentals.md` — foundational conceptual overview with formulas and examples
-- `docs/cheat-sheets/anaconda.md` — command cheat sheet
-- `docs/cheat-sheets/uv-python.md` — tool/workflow quick reference
-- `docs/cheat-sheets/docker.md` — command and configuration cheat sheet
-- `docs/cheat-sheets/docker-group.md` — focused troubleshooting guide with remediation and security notes
-- `docs/cheat-sheets/git.md` — Git repository initialization procedure/guide
-- `docs/cheat-sheets/linux-file-permissions.md` — command and concepts cheat sheet
-- `docs/cheat-sheets/nvm.md` — command cheat sheet
-- `docs/cheat-sheets/matplotlib.pyplot/bar-chart.md` — focused code example/recipe
-- `docs/cheat-sheets/matplotlib.pyplot/line-chart.md` — focused code example/recipe
+The page types above are already represented across the collection. Examples include:
+
+- Procedures and runbooks, including the firmware-update and PowerShell-profile guides
+- Troubleshooting, including Docker group remediation and troubleshooting sections in other guides
+- Conceptual and decision overviews, including JavaScript module systems, Azure services, Snowflake Cortex, and probability
+- Quick references, including Anaconda, Docker, and Snowflake CLI
+- Style guidance and focused code recipes, including Git commit conventions and Matplotlib charts
+
+This is representative coverage, not a page-by-page catalog. The categorized index in `docs/index.md` is the authoritative list of pages; keep page-specific descriptions there rather than duplicating them in this guidance.
 
 ### Potential Future Page Types
 
-Consider adding these types when a real reference requires them:
+Consider these distinct primary page types when there is useful content for them. Related sections within an existing page do not by themselves make that page a dedicated type:
 
-- Architecture or design decision guide
-- Operational checklist
-- Security hardening guide
+- Architecture or design decision guide, beyond service overviews and selection advice
+- Operational checklist, beyond the ordered steps in a procedure or runbook
+- Security hardening guide, beyond security notes in a troubleshooting guide or overview
 - Incident response or recovery runbook
-- API or library reference
+- API or library reference, beyond focused code examples and recipes
+- Migration or upgrade guide for moving between products, platforms, or major versions
 
-These are suggestions, not required categories. Do not add placeholder pages solely to represent a type.
+These are possibilities, not required categories. Do not add placeholder pages solely to represent a type.
 
 ## Content Rules
 
@@ -59,7 +54,7 @@ These are suggestions, not required categories. Do not add placeholder pages sol
 
 ## Site Navigation
 
-The page index lives in two places, which must stay in sync: the sidebar in `.vitepress/config.mts` and the categorized page index in `docs/index.md`. `README.md` is a short project intro and does not index pages.
+The page index lives in two places, which must stay in sync: the sidebar in `.vitepress/config.mts` and the categorized page index in `docs/index.md`. The `docs/index.md` home page also features one card for every top-level subject section, and the `.vitepress/config.mts` header Topics menu should link to a representative page in each section. Update the index, home cards, sidebar, and Topics menu together when adding or reorganizing a subject section. `README.md` is a short project intro and does not index pages.
 
 - When adding a Markdown page, add it to both the sidebar and the `docs/index.md` page index in the same change. Use site-absolute links without the `.md` extension, such as `/cheat-sheets/docker`.
 - When substantially changing an existing page's purpose, title, scope, location, or organization, update its sidebar text and its `docs/index.md` link text and description as needed.

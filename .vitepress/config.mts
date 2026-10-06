@@ -23,13 +23,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'System Administration', link: '/system-administration/linux/ubuntu/firmware-updates' },
-      { text: 'Style Guides', link: '/style-guides/git-commit-conventions' },
-      { text: 'Cloud Platforms', link: '/cloud-platforms/azure/app-service-overview' },
-      { text: 'Cheat Sheets', link: '/cheat-sheets/anaconda' }
+      {
+        text: 'Topics',
+        items: [
+          { text: 'System Administration', link: '/system-administration/linux/ubuntu/firmware-updates' },
+          { text: 'Languages & Runtimes', link: '/languages/javascript/module-systems-overview' },
+          { text: 'Style Guides', link: '/style-guides/git-commit-conventions' },
+          { text: 'Cloud Platforms', link: '/cloud-platforms/azure/app-service-overview' },
+          { text: 'Mathematics', link: '/mathematics/probability/fundamentals' },
+          { text: 'Data Science', link: '/data-science/frequency-distribution' },
+          { text: 'Cheat Sheets', link: '/cheat-sheets/anaconda' }
+        ]
+      }
     ],
 
-    // Keep in sync with the page index in docs/index.md
+    // Keep the subject sections and page links in sync with docs/index.md.
     sidebar: [
       {
         text: '🛠️ System Administration',
