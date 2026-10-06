@@ -1,4 +1,4 @@
-# Complements in Statistics for Data Science
+# Complements in Probability
 
 The **complement** of an event is the event that it does not occur. Complement probabilities are useful when "not A" is easier to count or calculate than A, especially for questions such as "at least one" or "none."
 

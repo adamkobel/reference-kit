@@ -21,9 +21,9 @@ For example, $5! = 120$. If a process has successive steps with $a_1, a_2, \ldot
 
 | Method | What is counted? | Does order matter? |
 | --- | --- | --- |
-| [Permutations](/data-science/probability/permutations) | Arrangements of all items | Yes |
-| [Variations](/data-science/probability/variations) | Ordered selections of some items | Yes |
-| [Combinations](/data-science/probability/combinations) | Selections of some items | No |
+| [Permutations](/mathematics/probability/combinatorics/permutations) | Arrangements of all items | Yes |
+| [Variations](/mathematics/probability/combinatorics/variations) | Ordered selections of some items | Yes |
+| [Combinations](/mathematics/probability/combinatorics/combinations) | Selections of some items | No |
 
 Each method has versions with and without repetition. Check the rules of the problem before choosing a formula; changing whether order matters or reuse is allowed changes the count.
 
@@ -41,6 +41,6 @@ For example, if 3 of 10 equally likely outcomes satisfy an event, its probabilit
 
 Use the focused pages for the formulas, examples, and conditions:
 
-- [Permutations](/data-science/probability/permutations) — order all items, including cases with identical items.
-- [Variations](/data-science/probability/variations) — choose and order some items, with or without repetition.
-- [Combinations](/data-science/probability/combinations) — choose items when order does not matter.
+- [Permutations](/mathematics/probability/combinatorics/permutations) — order all items, including cases with identical items.
+- [Variations](/mathematics/probability/combinatorics/variations) — choose and order some items, with or without repetition.
+- [Combinations](/mathematics/probability/combinatorics/combinations) — choose items when order does not matter.

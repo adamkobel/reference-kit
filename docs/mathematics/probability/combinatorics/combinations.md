@@ -34,4 +34,4 @@ This formula counts selections by type, so two scoops of the same flavor are ind
 
 ## When to use a combination
 
-Use a combination when selecting a group, team, or subset where rearranging the selected items does not create a new outcome. If order matters, use a [variation](/data-science/probability/variations). If all items are arranged, use a [permutation](/data-science/probability/permutations).
+Use a combination when selecting a group, team, or subset where rearranging the selected items does not create a new outcome. If order matters, use a [variation](/mathematics/probability/combinatorics/variations). If all items are arranged, use a [permutation](/mathematics/probability/combinatorics/permutations).

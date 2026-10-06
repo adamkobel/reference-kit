@@ -93,22 +93,33 @@ export default defineConfig({
         ]
       },
       {
-        text: '📊 Data Science',
+        text: '➗ Mathematics',
         collapsed: false,
         items: [
           {
             text: 'Probability',
             collapsed: false,
             items: [
-              { text: 'Combinatorics', link: '/data-science/probability/combinatorics' },
-              { text: 'Permutations', link: '/data-science/probability/permutations' },
-              { text: 'Variations', link: '/data-science/probability/variations' },
-              { text: 'Combinations', link: '/data-science/probability/combinations' },
-              { text: 'Probability Fundamentals', link: '/data-science/probability-fundamentals' },
-              { text: 'Probability Frequency Distribution', link: '/data-science/probability-frequency-distribution' },
-              { text: 'Complements in Statistics', link: '/data-science/complements-statistics' }
+              { text: 'Probability Fundamentals', link: '/mathematics/probability/fundamentals' },
+              { text: 'Complements in Probability', link: '/mathematics/probability/complements' },
+              {
+                text: 'Combinatorics',
+                link: '/mathematics/probability/combinatorics',
+                items: [
+                  { text: 'Permutations', link: '/mathematics/probability/combinatorics/permutations' },
+                  { text: 'Variations', link: '/mathematics/probability/combinatorics/variations' },
+                  { text: 'Combinations', link: '/mathematics/probability/combinatorics/combinations' }
+                ]
+              }
             ]
           }
+        ]
+      },
+      {
+        text: '📊 Data Science',
+        collapsed: false,
+        items: [
+          { text: 'Frequency Distribution', link: '/data-science/frequency-distribution' }
         ]
       },
       {

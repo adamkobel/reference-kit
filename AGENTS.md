@@ -25,7 +25,7 @@ Keep the README navigation organized primarily by subject. Make each page's prim
 - `docs/style-guides/git-commit-conventions.md` — style/convention guide
 - `docs/cloud-platforms/azure/app-service-overview.md` — conceptual overview and decision guide
 - `docs/cloud-platforms/azure/functions-overview.md` — conceptual overview
-- `docs/data-science/probability-fundamentals.md` — foundational conceptual overview with formulas and examples
+- `docs/mathematics/probability/fundamentals.md` — foundational conceptual overview with formulas and examples
 - `docs/cheat-sheets/anaconda.md` — command cheat sheet
 - `docs/cheat-sheets/uv-python.md` — tool/workflow quick reference
 - `docs/cheat-sheets/docker.md` — command and configuration cheat sheet

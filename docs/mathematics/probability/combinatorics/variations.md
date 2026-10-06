@@ -36,4 +36,4 @@ $$
 V(n,k) = \binom{n}{k} k!
 $$
 
-If order does not create a different outcome, use a [combination](/data-science/probability/combinations) instead. If all items are arranged, use a [permutation](/data-science/probability/permutations).
+If order does not create a different outcome, use a [combination](/mathematics/probability/combinatorics/combinations) instead. If all items are arranged, use a [permutation](/mathematics/probability/combinatorics/permutations).

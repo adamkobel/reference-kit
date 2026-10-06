@@ -32,4 +32,4 @@ $$
 
 ## When to use a permutation
 
-Use a permutation when every item is arranged and position matters, such as arranging people in a line or letters in a word. If only some items are selected and arranged, use a [variation](/data-science/probability/variations). If order does not matter, use a [combination](/data-science/probability/combinations).
+Use a permutation when every item is arranged and position matters, such as arranging people in a line or letters in a word. If only some items are selected and arranged, use a [variation](/mathematics/probability/combinatorics/variations). If order does not matter, use a [combination](/mathematics/probability/combinatorics/combinations).

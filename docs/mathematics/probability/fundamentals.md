@@ -1,4 +1,4 @@
-# Probability Fundamentals
+# Probability Fundamentals and Core Rules
 
 Probability is a way to describe how likely an event is. It is a foundation for data science because data often contains uncertainty: samples vary, measurements are noisy, and predictions are not guaranteed.
 

@@ -1,4 +1,4 @@
-# Probability Frequency Distribution
+# Frequency Distribution
 
 A **frequency distribution** shows how often each value or category occurs in a dataset.
 
